@@ -38,6 +38,19 @@
             font-size: 21px;
             font-family: 'Open Sans', sans-serif;
             cursor: pointer;
+            margin-right: 5%;
+
+            span {
+                width: 0;
+                border-bottom: red solid 3px;
+                transition: all 1s ease;
+
+                &:hover {
+                    width: 5%;
+                    color: rgba(243, 138, 19, 0.931);
+                }
+
+            }
         }
     }
 

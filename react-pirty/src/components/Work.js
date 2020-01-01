@@ -86,6 +86,13 @@ const Work = () => {
                 </div>
             </div>
             </Scene>
+            <Scene classToggle={['.last-slide', 'fade-up']}>
+                <div  className="last">
+                    <div className="last-slide">
+                    “Do not go where the path may lead, go instead where there is no path and leave a trail.” - <span>Robert Frost</span>
+                    </div>
+                </div>
+            </Scene>
             </Controller>
         </div>
     )
