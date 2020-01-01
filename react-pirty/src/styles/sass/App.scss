@@ -1,8 +1,10 @@
 @import './Hero.scss';
 @import './Nav.scss';
 
+$background-color: rgba(18, 18, 18, .9);
+
 html, body {
-    background-color: rgba(18, 18, 18, .9);
+    background-color: $background-color;
     color: rgba(255,255,255,1);
     margin: 0;
     padding: 0;
