@@ -32,7 +32,14 @@ class Nav extends Component {
                 onClick={this.handleMenu} 
                 icon={ this.state.toggled ? faBars : faTimes } 
                 />
-                <div className={ this.state.toggled ? 'closed' : 'open'} ></div>
+                <div className={ this.state.toggled ? 'closed' : 'open'} >
+                    <div className="mobile-menu">
+                        <span>Work</span>
+                        <span>News</span>
+                        <span>About</span>
+                        <span>Contact</span>
+                    </div>
+                </div>
             </div>
         )
     }

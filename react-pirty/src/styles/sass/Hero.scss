@@ -1,3 +1,38 @@
 video {
     width: 100%;
 }
+
+.video-container {
+    position: relative;
+
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(18,18,18, 0.91);
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        @media screen and (max-width: 479px) {
+            .video-content {
+                font-size: 1.25em;
+            }
+        }
+
+        @media screen and (min-width: 480px) {
+            .video-content {
+                font-size: 3.5em;
+            }
+        }
+
+        .video-content {
+            width: 80%;
+            margin: auto;
+            align-content: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
