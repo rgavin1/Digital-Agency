@@ -1,0 +1,46 @@
+.works-container {
+    width: 100%;
+    height: auto;
+
+    .card {
+        height: 100vh;
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
+            cursor: pointer;
+            transition: width 1s ease;
+
+            &:hover {
+                width: 105%;
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            .balance {
+                object-position: right !important;
+            }   
+        }
+
+        .card-content {
+            width: 90%;
+            height: fit-content;
+            margin: auto;
+            font-family: Montserrat;
+            
+            h1 {
+                text-transform: capitalize;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 1.45px;
+                line-height: 140%;
+            }
+
+            h4 {
+                font-weight: 300;
+            }
+        }
+    }
+}
