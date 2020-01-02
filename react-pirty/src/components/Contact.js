@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             </div>
             </div>
-            <img src={Image} />
+            <img alt="" src={Image} />
         </div>
     )
 }

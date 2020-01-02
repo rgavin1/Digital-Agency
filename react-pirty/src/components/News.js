@@ -12,7 +12,7 @@ const News = () => {
             <h1>Latest News</h1>
             <div className="news-container">
             <div className="news-card">
-                <img className="news-articles" src={Article1}  />
+                <img alt=""  className="news-articles" src={Article1}  />
                 <div className="news-content">
                 <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -21,7 +21,7 @@ const News = () => {
                 </div>
             </div>
             <div className="news-card">
-                <img className="news-articles" src={Article2}  />
+                <img alt=""  className="news-articles" src={Article2}  />
                 <div className="news-content">
                     <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -30,7 +30,7 @@ const News = () => {
                 </div>
             </div>
             <div className="news-card">
-                <img className="news-articles" src={Article3}  />
+                <img alt=""  className="news-articles" src={Article3}  />
                 <div className="news-content">
                 <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -39,7 +39,7 @@ const News = () => {
                 </div>
             </div>
             <div className="news-card">
-                <img className="news-articles" src={Article4}  />
+                <img alt=""  className="news-articles" src={Article4}  />
                 <div className="news-content">
                 <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -48,7 +48,7 @@ const News = () => {
                 </div>
             </div>
             <div className="news-card">
-                <img className="news-articles" src={Article5}  />
+                <img alt=""  className="news-articles" src={Article5}  />
                 <div className="news-content">
                 <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -57,7 +57,7 @@ const News = () => {
                 </div>
             </div>
             <div className="news-card">
-                <img className="news-articles" src={Article6}  />
+                <img alt=""  className="news-articles" src={Article6}  />
                 <div className="news-content">
                 <div className="news-wrapper">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
