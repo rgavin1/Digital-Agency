@@ -1,0 +1,77 @@
+$headerFont: 'Montserrat'; 
+
+h1 {
+    font-family: $headerFont;
+}
+
+h2 {
+    font-family: $headerFont;
+}
+
+.contact-container {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-connect {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    span {
+        margin: 5px 10px 5px 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.contact-social-media {
+    display: flex;
+    margin: 10px 0;
+}
+
+.contact-address {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    .address {
+    margin: 10px 0;
+    font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .contact-social-media {
+        display: flex;
+        margin: 10px 0;
+        width: 18%;
+    }
+
+    .connect-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-address {
+        display: flex;
+        margin-left: auto;
+        width: 80%;
+        
+        .address {
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.more-info {
+    cursor: pointer;
+    text-decoration: underline;
+}

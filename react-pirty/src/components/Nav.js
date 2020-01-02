@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
     constructor(props){
@@ -20,12 +21,12 @@ class Nav extends Component {
     render(){
         return (
             <div className="nav-container">
-                <span className="brand-name">PRITY</span>
+                <Link to="/"><span className="brand-name">PRITY</span></Link>
                 <div className="nav-list">
-                    <span>Work</span>
-                    <span>News</span>
-                    <span>About</span>
-                    <span>Contact</span>
+                    <Link to="/"><span>Work</span></Link>
+                    <Link to="/News"><span>News</span></Link>
+                    <Link to="/About"><span>About</span></Link>
+                    <Link to="/Contact"><span>Contact</span></Link>
                 </div>
                 <FontAwesomeIcon
                 className="toggle-menu"
@@ -34,10 +35,10 @@ class Nav extends Component {
                 />
                 <div className={ this.state.toggled ? 'closed' : 'open'} >
                     <div className="mobile-menu">
-                        <span>Work</span>
-                        <span>News</span>
-                        <span>About</span>
-                        <span>Contact</span>
+                        <Link to="/" ><span>Work</span></Link>
+                        <Link to="/News"><span>News</span></Link>
+                        <Link to="/About"><span>About</span></Link>
+                        <Link to="/Contact"><span>Contact</span></Link>
                     </div>
                 </div>
             </div>

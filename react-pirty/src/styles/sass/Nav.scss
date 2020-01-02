@@ -5,6 +5,11 @@
     height: 70px;
     background-color: transparent;
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .brand-name {
         font-family: 'Montserrat', sans-serif;
         font-size: 29px;
@@ -22,7 +27,6 @@
         }   
     }
     .toggle-menu {
-        margin-right: 10%;
         font-size: 30px;
     }
 
@@ -39,7 +43,8 @@
             font-family: 'Open Sans', sans-serif;
             cursor: pointer;
             margin-right: 5%;
-
+            text-decoration: none;
+            
             span {
                 width: 0;
                 border-bottom: red solid 3px;
@@ -85,6 +90,7 @@
         top: 10%;
         transition: all 1s ease;
         z-index: 1;
+        cursor: pointer;
         
         .mobile-menu {
             display: flex;

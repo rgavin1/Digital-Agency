@@ -19,7 +19,7 @@ const Work = () => {
                 <img src={Site1} alt="" />
                 <div className="card-content">
                     <h1>Scotch Old Enough to buy its own scotch</h1>
-                    <h4>Blackkeg</h4>
+                    <h4>Blackkeg.com</h4>
                 </div>
             </div>
             </Scene>
@@ -28,7 +28,7 @@ const Work = () => {
                 <img src={Site2} alt="" className="balance" />
                 <div className="card-content">
                     <h1>The beautiful balance between mind, body, and soul</h1>
-                    <h4>Harmuny</h4>
+                    <h4>Harmuny.com</h4>
                 </div>
             </div>
             </Scene>
@@ -37,7 +37,7 @@ const Work = () => {
                 <img src={Site3} alt="" />
                 <div className="card-content">
                     <h1>Where memories are created</h1>
-                    <h4>Festiv</h4>
+                    <h4>Festiv.com</h4>
                 </div>
             </div>
             </Scene>
@@ -46,7 +46,7 @@ const Work = () => {
                 <img src={Site4} alt="" />
                 <div className="card-content">
                     <h1>Life is too short to drive boring cars</h1>
-                    <h4>Downforc</h4>
+                    <h4>Downforc.com</h4>
                 </div>
             </div>
             </Scene>
@@ -55,7 +55,7 @@ const Work = () => {
                 <img src={Site5} alt="" />
                 <div className="card-content">
                     <h1>Live. Love. Music.</h1>
-                    <h4>Vybes</h4>
+                    <h4>Vybes.com</h4>
                 </div>
             </div>
             </Scene>
@@ -64,7 +64,7 @@ const Work = () => {
                 <img src={Site6} alt="" />
                 <div className="card-content">
                     <h1>Nice Kicks</h1>
-                    <h4>Shuelace</h4>
+                    <h4>Shuelace.com</h4>
                 </div>
             </div>
             </Scene>
@@ -73,7 +73,7 @@ const Work = () => {
                 <img className="set-image" src={Site7} alt="" />
                 <div className="card-content">
                     <h1>Dress for it</h1>
-                    <h4>Katherine & Karen</h4>
+                    <h4>Katherine & Karen.com</h4>
                 </div>
             </div>
             </Scene>
@@ -82,7 +82,7 @@ const Work = () => {
                 <img src={Site8} alt="" />
                 <div className="card-content">
                     <h1>Dare to be great</h1>
-                    <h4>ChampX</h4>
+                    <h4>ChampX.com</h4>
                 </div>
             </div>
             </Scene>
