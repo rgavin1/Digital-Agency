@@ -10,13 +10,64 @@ const News = () => {
     return (
         <div>
             <h1>Latest News</h1>
-            <img src={Article1}  />
-            <img src={Article2}  />
-            <img src={Article3}  />
-            <img src={Article4}  />
-            <img src={Article5}  />
-            <img src={Article6}  />
+            <div className="news-container">
+            <div className="news-card">
+                <img className="news-articles" src={Article1}  />
+                <div className="news-content">
+                <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            <div className="news-card">
+                <img className="news-articles" src={Article2}  />
+                <div className="news-content">
+                    <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            <div className="news-card">
+                <img className="news-articles" src={Article3}  />
+                <div className="news-content">
+                <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            <div className="news-card">
+                <img className="news-articles" src={Article4}  />
+                <div className="news-content">
+                <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            <div className="news-card">
+                <img className="news-articles" src={Article5}  />
+                <div className="news-content">
+                <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            <div className="news-card">
+                <img className="news-articles" src={Article6}  />
+                <div className="news-content">
+                <div className="news-wrapper">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                    <div className="news-title">Lorem</div>
+                </div>
+            </div>
+            </div>
         </div>
+
     )
 }
 
