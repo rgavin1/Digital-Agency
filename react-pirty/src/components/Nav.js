@@ -21,7 +21,7 @@ class Nav extends Component {
     render(){
         return (
             <div className="nav-container">
-                <Link to="/"><span className="brand-name">PRITY</span></Link>
+                <Link to="/"><span className="brand-name">PIRTY</span></Link>
                 <div className="nav-list">
                     <Link to="/"><span>Work</span></Link>
                     <Link to="/News"><span>News</span></Link>
